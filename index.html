@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-</head>
-<body>
-  <div class="flex">
-    <div class="w-8/10">
-      <div id="header" class="w-full h-[450px] bg-[url('images/2.jpg')] bg-cover bg-bottom pl-[5%] flex items-center">
-        <div class="text-white font-bold">
-          <span class="text-lg">DRAMA</span>
-          <h1 class="text-5xl">BEST EARTH</h1>
-          <p class="text-lg my-5">THE STORY OF A MAN WHO SURVIVED ON AN ALIEN <br> PLANET ALONE</p>
-          <div class="flex text-red-500 text-lg gap-6">
-            <h4>IMDb: 8.0</h4>
-            <h4>Movie star: 7.7</h4>
-          </div>
-        </div>
-      </div>
-
-      <div class="grid grid-cols-2 pl-[5%] mt-8 mb-10">
-        <div>
-          <h2 class="text-3xl font-bold underline mb-8">RECENT SERIES</h2>
-          <div id="series"  class="text-2xl underline">
-            <div id="series-list" class="group flex items-center gap-1">
-              <p class="mb-2">OMAR</p>
-              <img class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100" src="images/trash.png">
-            </div>
-            <div id="series-list" class="group flex items-center gap-1">
-              <p class="mb-2">The Final Legacy</p>
-              <img class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100" src="images/trash.png">
-            </div>
-            <div id="series-list" class="group flex items-center gap-1">
-              <p class="mb-2">ERTUGRUL</p>
-              <img class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100" src="images/trash.png">
-            </div>
-            <div id="series-list" class="group flex items-center gap-1">
-              <p class="mb-2">MAGNIFICENT CENTURY</p>
-              <img class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100" src="images/trash.png">
-            </div>
-            <div id="series-list" class="group flex items-center gap-1">
-              <p class="mb-2">GREAT SELJUKS: GUARDIANS...</p>
-              <img class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100" src="images/trash.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="w-8/10">
+        <div
+          id="header"
+          class="w-full h-[450px] bg-[url('images/2.jpg')] bg-cover bg-bottom pl-[5%] flex items-center"
+        >
+          <div class="text-white font-bold">
+            <span class="text-lg">DRAMA</span>
+            <h1 class="text-5xl">BEST EARTH</h1>
+            <p class="text-lg my-5">
+              THE STORY OF A MAN WHO SURVIVED ON AN ALIEN <br />
+              PLANET ALONE
+            </p>
+            <div class="flex text-red-500 text-lg gap-6">
+              <h4>IMDb: 8.0</h4>
+              <h4>Movie star: 7.7</h4>
             </div>
           </div>
         </div>
-        <div class="pr-40">
-          <form>
-            <h2 class="text-3xl font-bold underline mb-8">ADD NEW SERIES</h2>
-            <div>
-              <h3 class="text-lg font-bold mb-2">Name of series</h3>
-              <input class="border rounded-full px-4 py-2 mb-2 w-full" type="text" placeholder="What has already been viewed?">
-              <h3 class="text-lg font-bold mb-2">Make it your favorite?</h3>
-              <label for="checked">
-                <input type="checkbox" id="checked">
-                <span class="text-lg font-bold mb-2 inline-block">Yes!</span>
-              </label>
-              <button type="submit" class="px-5 py-3 w-full font-bold text-white bg-purple-700 border-2 border-purple-700 duration-300 cursor-pointer hover:bg-transparent hover:text-purple-700 rounded-full">Submit</button>
+
+        <div class="grid grid-cols-2 pl-[5%] mt-8 mb-10">
+          <div>
+            <h2 class="text-3xl font-bold underline mb-8">RECENT SERIES</h2>
+            <div id="series" class="text-2xl underline">
+              <div id="series-list" class="group flex items-center gap-1">
+                <p class="mb-2">OMAR</p>
+                <img
+                  class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100"
+                  src="images/trash.png"
+                />
+              </div>
+              <div id="series-list" class="group flex items-center gap-1">
+                <p class="mb-2">The Final Legacy</p>
+                <img
+                  class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100"
+                  src="images/trash.png"
+                />
+              </div>
+              <div id="series-list" class="group flex items-center gap-1">
+                <p class="mb-2">ERTUGRUL</p>
+                <img
+                  class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100"
+                  src="images/trash.png"
+                />
+              </div>
+              <div id="series-list" class="group flex items-center gap-1">
+                <p class="mb-2">MAGNIFICENT CENTURY</p>
+                <img
+                  class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100"
+                  src="images/trash.png"
+                />
+              </div>
+              <div id="series-list" class="group flex items-center gap-1">
+                <p class="mb-2">GREAT SELJUKS: GUARDIANS...</p>
+                <img
+                  class="h-5 cursor-pointer opacity-0 duration-300 group-hover:opacity-100"
+                  src="images/trash.png"
+                />
+              </div>
             </div>
-          </form>
+          </div>
+          <div class="pr-40">
+            <form>
+              <h2 class="text-3xl font-bold underline mb-8">ADD NEW SERIES</h2>
+              <div>
+                <h3 class="text-lg font-bold mb-2">Name of series</h3>
+                <input
+                  class="border rounded-full px-4 py-2 mb-2 w-full"
+                  type="text"
+                  placeholder="What has already been viewed?"
+                />
+                <h3 class="text-lg font-bold mb-2">Make it your favorite?</h3>
+                <label for="checked">
+                  <input type="checkbox" id="checked" />
+                  <span class="text-lg font-bold mb-2 inline-block">Yes!</span>
+                </label>
+                <button
+                  type="submit"
+                  class="px-5 py-3 w-full font-bold text-white bg-purple-700 border-2 border-purple-700 duration-300 cursor-pointer hover:bg-transparent hover:text-purple-700 rounded-full"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
+      <div id="adv" class="w-2/10 px-5">
+        <h2 class="text-xl font-bold text-center my-5">
+          Advertising from sponsors
+        </h2>
+        <img class="mb-4 rounded-xl" src="images/adv1.webp" alt="" />
+        <img class="mb-4 rounded-xl" src="images/adv2.webp" alt="" />
+        <img class="mb-4 rounded-xl" src="images/adv3.webp" alt="" />
+        <img class="mb-4 rounded-xl" src="images/adv4.webp" alt="" />
+      </div>
     </div>
-    <div id="adv" class="w-2/10 px-5">
-      <h2 class="text-xl font-bold text-center my-5">Advertising from sponsors</h2>
-      <img class="mb-4 rounded-xl" src="images/adv1.jpg" alt="">
-      <img class="mb-4 rounded-xl" src="images/adv2.png" alt="">
-      <img class="mb-4 rounded-xl" src="images/adv3.jpg" alt="">
-      <img class="mb-4 rounded-xl" src="images/adv4.png" alt="">
-    </div>
-  </div>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
